@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# ============================================================================
+# Helper script to map calls to 'service' on CentOS7 to 'systemctl', as
+# 'service' is not available there.
+# See https://knx-user-forum.de/forum/projektforen/edomi
+# 2019-09-02 Y. Schumann (starwarsfan)
+# ============================================================================
+systemctl "$2" "$1"
