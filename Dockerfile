@@ -53,7 +53,7 @@ RUN systemctl start mariadb \
  && systemctl stop mariadb
 
 # Mount points
-VOLUME ${EDOMI_BACKUP_DIR} ${EDOMI_DB_DIR} ${EDOMI_INSTALL_DIR}
+VOLUME /var/edomi-backups /var/lib/mysql /usr/local/edomi
 
 # Ports
 EXPOSE 80 8080 3671 50000 50001 22
