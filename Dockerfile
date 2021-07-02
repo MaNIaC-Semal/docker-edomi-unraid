@@ -1,5 +1,5 @@
-FROM starwarsfan/edomi-baseimage:amd64-latest
-MAINTAINER Yves Schumann <y.schumann@yetnet.ch>
+FROM MaNIaC-Semal/docker-edomi-unraid:latest
+MAINTAINER Stefan Gaida
 
 # Define build arguments
 ARG EDOMI_VERSION=EDOMI_203.tar
