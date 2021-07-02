@@ -55,6 +55,9 @@ RUN systemctl start mariadb \
 # Mount points
 VOLUME ${EDOMI_BACKUP_DIR} ${EDOMI_DB_DIR} ${EDOMI_INSTALL_DIR}
 
+# Ports
+EXPOSE 80 8080 3671 50000 50001 22
+
 # Clear default root pass env var
 ENV ROOT_PASS=''
 
