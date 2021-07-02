@@ -1,6 +1,6 @@
 ## Edomi-Unraid
 
-Branched from [edomi-docker](https://github.com/starwarsfan/edomi-docker) by [starwarsfan](https://github.com/starwarsfan)
+Forked from [edomi-docker](https://github.com/starwarsfan/edomi-docker) by [starwarsfan](https://github.com/starwarsfan)
 
 This is a Docker implementation for Edomi, a PHP-based smarthome framework.
 
